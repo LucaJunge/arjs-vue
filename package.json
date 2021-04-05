@@ -1,0 +1,23 @@
+{
+  "name": "arjs-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --https",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "three": "^0.126.1",
+    "vue": "^2.6.11",
+    "ar-js-org": "https://github.com/AR-js-org/AR.js.git#b7c48e04321df4b57ba8321209d3cb111d055500"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
